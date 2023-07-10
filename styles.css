@@ -22,7 +22,7 @@
     --font-bold: url(fonts/source-sans-pro/SourceSansPro-Bold.otf);
     --font-semi-bold: url(fonts/source-sans-pro/SourceSansPro-Semibold.otf);
 
-    --font-funky: url();
+    --font-funky: url(fonts/Spin-Cycle-OT/);
    }
 
    .purple {
@@ -109,5 +109,8 @@
     font-family: var(--default-font);
    }
    .cry {
-    font-family: ;
+    font-family: var(--font-funky);
+   }
+   .coiny {
+    font-family: 'Coiny', cursive;
    }
