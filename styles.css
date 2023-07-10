@@ -1,0 +1,77 @@
+/* Imports
+   ✧ ༝ ┉ ˚ * ❋ ❋ * ˚ ┉ ༝ ✧ */
+   @import url("./holberton_school-icon/style.css");
+   /* .holberton_school-icon-ic_sound,
+   .holberton_school-icon-ic_video,
+   .holberton_school-icon-ic_music,
+   .holberton_school-icon-ic_hearing {
+    color: var(--color-red);
+    font-size: 80px;
+    } */
+
+/* Variables
+   ✧ ༝ ┉ ˚ * ❋ ❋ * ˚ ┉ ༝ ✧ */
+   :root {
+    --color-red: #FF6565;
+    --color-white: #FFF;
+    --color-black: #000;
+    --color-purple: #C271FF;
+
+    --default-font: 'Source Sans Pro', sans-serif;
+    --font-light: url(fonts/source-sans-pro/SourceSansPro-Light.otf);
+    --font-bold: url(fonts/source-sans-pro/SourceSansPro-Bold.otf);
+    --font-semi-bold: url(fonts/source-sans-pro/SourceSansPro-Semibold.otf);
+   }
+
+   .purple {
+    color: var(--color-purple);
+   }
+   .bg-membership {
+    background-color: #071629;
+   }
+   .bg-purple {
+    background-color: var(--color-purple);
+   }
+
+/* Images
+   ✧ ༝ ┉ ˚ * ❋ ❋ * ˚ ┉ ༝ ✧ */
+
+  .header-bg {
+    background-image: url('images/pic_1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 800px;
+  }
+
+/* Button
+   ✧ ༝ ┉ ˚ * ❋ ❋ * ˚ ┉ ༝ ✧ */
+
+.button {
+    color: var(--color-white);
+    background-color: var(--color-purple);
+
+    width: 12rem;
+    height: 3rem;
+
+    border: none;
+    border-radius: 1.5rem;
+
+    font-weight: bold;
+    font-size: 15px;
+
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+
+    cursor: pointer;
+  } 
+  .button:hover {
+    opacity: 0.9;
+  }
+
+  /* links
+   ✧ ༝ ┉ ˚ * ❋ ❋ * ˚ ┉ ༝ ✧ */
+
+   li a:hover, li a:focus {
+    color: var(--color-purple) !important;
+    text-decoration: none;
+  }
