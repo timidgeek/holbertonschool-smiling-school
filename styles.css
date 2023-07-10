@@ -21,10 +21,12 @@
     --font-light: url(fonts/source-sans-pro/SourceSansPro-Light.otf);
     --font-bold: url(fonts/source-sans-pro/SourceSansPro-Bold.otf);
     --font-semi-bold: url(fonts/source-sans-pro/SourceSansPro-Semibold.otf);
+
+    --font-funky: url();
    }
 
    .purple {
-    color: var(--color-purple);
+    color: var(--color-purple) !important;
    }
    .bg-membership {
     background-color: #071629;
@@ -38,6 +40,20 @@
 
   .header-bg {
     background-image: url('images/pic_1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 800px;
+  }
+  .pricing-bg {
+    background-image: url('images/pic_2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 800px;
+  }
+  .courses-bg {
+    background-image: url('images/pic_3.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -75,3 +91,23 @@
     color: var(--color-purple) !important;
     text-decoration: none;
   }
+  a {
+    color: white !important;
+  }
+  a:hover, a:focus {
+    color: var(--color-purple) !important;
+  }
+
+  /* helpers lol
+   ✧ ༝ ┉ ˚ * ❋ ❋ * ˚ ┉ ༝ ✧ */ 
+
+   .wide-open-spaces {
+    height: 150px;
+   }
+
+   body {
+    font-family: var(--default-font);
+   }
+   .cry {
+    font-family: ;
+   }
